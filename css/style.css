@@ -75,3 +75,33 @@ header {
     box-shadow: inset 0 0 0 2px #878a8c;
     color: #000;
 }
+
+.keyboard-container{
+    flex-direction: column;
+     display: flex;
+     margin: 40px 0;
+     justify-content:center;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .key1, .key2, .key3{
+     max-width: max-content;
+     max-height: max-content;
+ }
+ .keyboard > button{
+     margin: 4px;
+     height: 50px;
+     width: 50px;
+     min-width: fit-content;
+     font-weight: bolder;
+     border-radius: 5px;
+     background-color: #787c7e;
+     color: antiquewhite;
+ }
+ .keyboard > button:hover{
+     border: 1px solid #000;
+     border-radius: 5px;
+     background-color: antiquewhite;
+     color: #000;
+ }
